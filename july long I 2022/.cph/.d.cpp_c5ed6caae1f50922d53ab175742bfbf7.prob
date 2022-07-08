@@ -1,0 +1,1 @@
+{"name":"Local: d","url":"/home/prasad/Desktop/just code/codechef contests/july long I 2022/d.cpp","tests":[{"id":1657273785181,"input":"3\n1 1 1 1\n8 8 7 6\n8 8 8 6","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prasad/Desktop/just code/codechef contests/july long I 2022/d.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: e","url":"/home/prasad/Desktop/just code/codechef contests/CONTEST 06.07.22/e.cpp","tests":[{"id":1657122975834,"input":"4\n3\n000\n4\n1001\n4\n1010\n6\n010101","output":"0\n1\n2\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/prasad/Desktop/just code/codechef contests/CONTEST 06.07.22/e.cpp","group":"local","local":true}
