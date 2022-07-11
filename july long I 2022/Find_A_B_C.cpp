@@ -1,4 +1,3 @@
-//Largest Square in the garden 
 //this code belongs to prasad patil
 #pragma GCC optimize("Ofast")
 #pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
@@ -38,30 +37,48 @@ double eps = 1e-12;
 //this code belongs to prasad patil
 #define all(x) (x).begin(), (x).end()
 #define sz(x) ((ll)(x).size())
+int powerr(int n)
+{
+    int ans=(int) log2(n);
+    return (1<<ans);
+}
  
 
 void solve(){
     int n;
     cin>>n;
-    vector<int> v;
-    map<int,int> m;
-    int a,b;
+    int arr[n+1];
     for(int i=0;i<n;i++)
     {
-        cin>>a>>b;
-        v.push_back((abs(a-b)+1));
+        cin>>arr[i];
     }
-   
- 
-   
-      
-      
-   
+    vector<int> res(3,0);
+    for(int i=powerr(n);i>0;i/=2)
+    {
+        int manage=(arr[i]-arr[0]);
+        if(manage<0)
+        {
+            manage=(manage*(-1));
+            int ab=(manage/i);
+            if(ab==1)
+            {
+                ab=2;
+                if(())
+                
+            }
+        }
+        
+    }
 
-    
+
 }
 int main()
 {
- solve();
+ fast_cin();
+ ll t;
+ cin >> t;
+ while(t--) {
+solve();
+ }
  return 0;
 }
